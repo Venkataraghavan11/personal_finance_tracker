@@ -5,8 +5,6 @@ from django.conf import settings
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.db.models import Sum
-
-from et.home.views import addmoney
 #Create your models here.
 SELECT_CATEGORY_CHOICES = [
     ("Food","Food"),
